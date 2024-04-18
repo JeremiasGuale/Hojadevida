@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Hoja de Vida</title>
+  <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #bcbcbc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .content {
+    flex: 2; /* El contenido ocupa el doble de espacio que la foto */
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h3 {
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .section p {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .references {
+    margin-top: 30px;
+  }
+  
+  .photo {
+    flex: 1; /* La foto ocupa 1/3 del espacio */
+    text-align: center; /* Centramos la foto horizontalmente */
+  }
+  
+  .photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .photo img:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="content">
+    <header>
+      <h1>Mi Hoja de Vida</h1>
+    </header>
+    
+    <section class="section">
+      <h2>Datos Personales</h2>
+      <div class="contact-info">
+        <p><strong>Nombre:</strong> Jeremias Joel Guale Santana</p>
+        <p><strong>Fecha de Nacimiento:</strong> 14 de Mayo de 2002</p>
+        <p><strong>Dirección:</strong> CDL Costa Azul, Ciudad de Manta, Ecuador</p>
+        <p><strong>Teléfono:</strong> 0984280334</p>
+        <p><strong>Email:</strong> gualejeremi@gmail.com</p>
+        <p><strong>Estado Civil:</strong> Soltero</p>
+        <p><strong>Nacionalidad:</strong>Ecuatoriano</p>
+        <p><strong>Permiso de Trabajo:</strong> Sí (opcional)</p>
+        <p><strong>LinkedIn:</strong> <a href="https://ec.linkedin.com/in/jeremias-guale-278362251"target="_blank">https://ec.linkedin.com/in/jeremias-guale-278362251</a></p>
+      </div>
+    </section>
+    <section class="section">
+        <h2>Educación</h2>
+        <h3>Grado Universitario 5 Semestre</h3>
+        <p>Universidad Laica Eloy Alfaro de Manabi</p>
+        <p>Titulo Obtenido, Año de Graduación</p>
+        <h3>Certificaciones</h3>
+        <p>Nombre de la Certificación - Institución, Año</p>
+        <h3>Cursos Adicionales</h3>
+        <p>Nombre del Curso - Plataforma, Año</p>
+      </section>
+      <section class="section">
+        <h2>Experiencia Laboral</h2>
+        <h3>Mesero </h3>
+        <p>Antojitos Manabi - Manta,Ecuador </p>
+        <p>Fecha de Inicio - Fecha de Fin</p>
+        <p>Descripción de las responsabilidades y logros</p>
+        <h3>Trabajo en minimarket</h3>
+        <p>Tienda Raquel - Manta,Ecuador </p>
+        <h3>Proyectos Destacados</h3>
+        <p>Nombre del Proyecto - Descripción breve</p>
+      </section>
+      <section class="section">
+        <h2>Habilidades</h2>
+        <p><strong>Idiomas:</strong> Español (nativo), Inglés (Intermedio)</p>
+        <p><strong>Competencias Técnicas:</strong> HTML, CSS, JavaScript, etc.</p>
+        <p><strong>Habilidades Armar pc y arreglarla:</strong> Trabajo en equipo, Comunicación efectiva, etc.</p>
+      </section>    
+    <footer class="references">
+      <h2>Referencias</h2>
+      <p>Referencias disponibles bajo petición</p>
+      <p>Byron Franco - Ing Ambiental</p>
+      <p>Email: byronfr@gmail.com | Teléfono: 098428125</p>
+    </footer>
+  </div>
+
+  <div class="photo">
+    <img src="fotos/foto1.jpg" alt="Mi Foto">
+  </div>
+</div>
+
+</body>
+</html>
